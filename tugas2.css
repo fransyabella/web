@@ -1,0 +1,130 @@
+body{
+    margin: auto;
+    width: 100%;
+    background-color: #514438;
+    color: ivory;
+}
+.container{
+    margin: 5%;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.title img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 100%;
+    border: solid 3px #fffefd;
+}
+.title h1{
+    text-align: center;
+}
+table, th, td{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding: 10px;
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid #514438;
+}
+table caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th{
+    background-color: #514438;
+    color: #F7F2CB;
+}
+td{
+    background-color: transparent;
+    color: #F7F2CB;
+}
+.personalInfo table{
+    font-size: 20px;
+}
+.personalInfo table caption{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+}
+.education h3{
+    font-family: 'Lateef', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.wrapEducation{
+    margin: 2% 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2%;
+    background-color: #F7F2CB;
+}
+.wrapEducation .gridItem{
+    color: #c5aa91;
+    background-color: #514438;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.wrapEducation .gridItem:hover{
+    background-color: rgb(218, 162, 162);
+    color: #514438;
+}
+.job{
+    background-color: rgb(235, 199, 199);
+    color: #514438; 
+}
+.job h2{
+    background-color: rgb(218, 162, 162);
+    color: #514438;
+}
+.job p{
+    margin-top: -1%;
+    text-align: center;
+}
+.training img{
+    padding-bottom: 10%;
+    margin: auto;
+    float: right;
+}
+.training caption{
+    font-family: 'Aladin', cursive;
+    font-size: 30px;
+}
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.bar{
+    width: 100%;
+    background-color: #ddd;
+}
+.html{
+    width: 85%; background-color: #4CAF50;
+}
+.css{
+    width: 70%; background-color: #2196F3;
+}
+.english{width: 80%; background-color: #f44336;
+}
+.php{
+    width: 60%; background-color: #808080;
+}

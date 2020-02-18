@@ -1,0 +1,133 @@
+body{
+    margin: auto;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 8.5%;
+    background-color: #514438;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a{
+    font-family: 'Playfair Display', serif;
+    display: block;
+    color: whitesmoke;
+    padding: 20px 16px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+li a.active{
+    background-color: #F7F2CB;
+    color: #a0846b;
+    margin-bottom: 100px;
+}
+li a:hover:not(.active){
+    background-color: #F7F2CB;
+    color: #a0846b;
+}
+.container{
+    margin-left:8%;
+    padding:1px 16px;
+}
+.beranda{
+    background-image: url('D:/SEMESTER 4/Web/Tugas/res/latar1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+}
+.beranda img{
+    display: block;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 100%;
+    border: solid 3px #fffefd;
+}
+.beranda h1{
+    font-family: 'Merienda One', cursive;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.beranda h2{
+    font-family: 'Merienda One', cursive;
+    color: #CBD7AB;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.beranda h3{
+    font-family: 'Aclonica', sans-serif;
+    color: rgb(188, 145, 152);
+    text-align: center;
+    margin-bottom: 5%;
+}
+.gridTask{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #F7F2CB;
+    padding: 20px;
+}
+.gridTask img{
+    margin-left: 20%;
+    margin-top: 10%;
+    display: block;
+    height: 250px;
+    width: 250px;
+}
+.gridTask .gridItem{
+    color: #514438;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.gridTask .gridItem h2 a{
+    color: #514438;
+}
+.aboutMe{
+    background-image: linear-gradient(to top, #514438, #796b59, #a3957d, #cdc2a3, #f7f2cb);
+}
+.aboutMe img{
+    float: left;
+    display: block;
+    margin: 5px auto;
+}
+.aboutMe h1{
+    font-size: 40px;
+    font-family: 'Caveat Brush', cursive;
+    color: #514438;
+}
+.aboutMe p{
+    font-size: 30px;
+    font-family: 'Mali', cursive;
+}
+.contactMe{
+    text-align: center;
+    padding: 10px;
+    background-color: #514438;
+}
+.contactMe h1{
+    color: #F7F2CB;
+    font-family: 'Galada', cursive;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.contactMe span{
+    color: #F7F2CB;
+    font-family: 'Lobster Two', cursive;
+    padding-bottom: 5%;
+}
+.gridContact{
+    padding-top: 5%;
+    color: #F7F2CB;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-family: serif;
+    font-size: 20px;
+}
